@@ -201,3 +201,177 @@
     ),
   ),
 )
+[ 2015-07-15 17:37:44 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-15 17:37:47 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-15 17:37:48 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-15 17:37:50 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-15 17:37:51 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)
+[ 2015-07-15 17:37:51 ][FATAL]控制器login不存在 debug_backtrace:array (
+  0 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\Grace\\GracePHP.class.php',
+    'line' => 90,
+    'function' => 'halt',
+    'args' => 
+    array (
+      0 => '控制器login不存在',
+    ),
+  ),
+  1 => 
+  array (
+    'file' => 'E:\\www\\GracePHPava\\webroot\\index.php',
+    'line' => 10,
+    'function' => 'run',
+    'class' => 'GracePHP',
+    'object' => 
+    GracePHP::__set_state(array(
+       'm' => NULL,
+       'c' => NULL,
+       'a' => NULL,
+    )),
+    'type' => '->',
+    'args' => 
+    array (
+    ),
+  ),
+)

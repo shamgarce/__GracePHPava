@@ -9,11 +9,33 @@ class BaseController extends Controller{
         parent::__construct();
     }
 
+    public function behaviors()
+    {
+
+        return [
+            'access' => [
+                'only' => ['login', 'logout', 'signup'],
+                'rules' => [
+                    [
+                        'actions' => ['login', 'signup'],
+                        'allow' => true,
+                        'roles' => ['?'],
+                    ],
+                    [
+                        'actions' => ['logout'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
+        ];
+    }
+
 //    //action before
-//    protected function _init(){
-//        header("Content-Type:text/html; charset=utf-8");
-//        $this->rbac->run($this->getaccessRules());          //角色行为控制
-//    }
+    protected function _init(){
+        header("Content-Type:text/html; charset=utf-8");
+        //$this->rbac->run($this->getaccessRules());          //角色行为控制
+    }
 //
 //    /**
 //     * 基于用户角色的权限控制

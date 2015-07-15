@@ -15,7 +15,7 @@ $config = [
 
     //入口系统模块 - hmvc必须
     'modules' => [
-        'super' => 'hmvc_super',
+        's' => 'hmvc_super',
     ],
 
 
