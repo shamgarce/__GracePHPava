@@ -51,8 +51,6 @@
     $(document).ready(function(){
 
         $(".login_submit").click(function(){
-
-
             var res = $.ajax({
                 url : '',
                 type: 'post',
@@ -70,15 +68,12 @@
                 alert(res.msg);
                 return false;
             }else{
-//			location.reload();
-                window.location.href="/login/home.r";
+                window.location.href="<?=$get['r']?>";
                 return true;
             }
-
         });
-
     })
 </script>
-
+<?=$get['r']?>
 </body>
 </html>

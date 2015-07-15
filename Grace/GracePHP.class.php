@@ -235,9 +235,9 @@ class Controller {
         $this->env['ip'] = '';
         $this->env['mem'] = memory_get_usage();
 //
+        includeIfExist(C('BASE_FULL_PATH').'Seter/I.php');
 //        // 依赖注入
         $this->singleton('S', function ($c) {
-            includeIfExist(C('BASE_FULL_PATH').'Seter/I.php');
             return \Seter\Seter::getInstance();
         });
 //
@@ -470,7 +470,9 @@ class View {
         }else{
             $this->_tplDir = $tplDir;
         }
-
+        $this->assign('get',\Seter\Seter::getInstance()->request->get);
+        $this->assign('post',\Seter\Seter::getInstance()->request->post);
+        $this->assign('cookie',\Seter\Seter::getInstance()->request->cookie);
     }
     /**
      * 为视图引擎设置一个模板变量
@@ -478,27 +480,29 @@ class View {
      * @param mixed $value 模板中该变量名对应的值
      * @return void
      */
-//    public function assign($key, $value) {
-//        $this->_data[$key] = $value;
-//    }
+    public function assign($key, $value) {
+        $this->_data[$key] = $value;
+    }
 
     public function fetch($tplFile,$data)
     {
+        //$this->_data = $data;
+        foreach($data as $key=>$value){
+            $this->_data[$key] = $value;
+        }
 
         ob_start(); //开启缓冲区
-        $this->_data = $data;
+
         $router = C('router');
         $this->_viewPath = $this->_tplDir .'/'.$router['Controller'].'/'. $tplFile . '.php';
-//$router = C('router');
-////            D($router);        echo  $this->_viewPath ;
         unset($tplFile);
         extract($this->_data);
         include $this->_viewPath;
 
-        $str=ob_get_contents();
+        $html = ob_get_contents();
         ob_end_clean();
 
-        return $str;
+        return $html;
     }
 
     /**
@@ -507,13 +511,18 @@ class View {
      * @return void
      */
     public function display($tplFile,$data) {
-        $this->_data = $data;
+
+        //$this->_data = $data;
+        foreach($data as $key=>$value){
+            $this->_data[$key] = $value;
+        }
+
+
         $router = C('router');
         $this->_viewPath = $this->_tplDir .'/'.$router['Controller'].'/'. $tplFile . '.php';
-//$router = C('router');
-////            D($router);        echo  $this->_viewPath ;
         unset($tplFile);
         extract($this->_data);
+
         include $this->_viewPath;
     }
     /**
