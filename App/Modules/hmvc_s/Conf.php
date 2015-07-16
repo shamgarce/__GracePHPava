@@ -4,6 +4,8 @@
  */
 
 $config = [
+    'userlogin' => '/s/home/login',
+    'usermain' => '/s/home/main',
 
     'error_manage'=>'',
 //    'application_folder' => dirname(__FILE__),

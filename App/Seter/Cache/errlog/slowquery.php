@@ -10271,3 +10271,1611 @@ TM : 0.030000925064087 : 2015-07-15 14:31:46
  select * from dy_user
 TM : 0.030000925064087 : 2015-07-15 14:31:46
 ----------------------------
+select * from dy_user
+TM : 0.038001775741577 : 2015-07-16 10:40:55
+----------------------------
+select * from dy_user
+TM : 0.027000904083252 : 2015-07-16 10:40:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02900218963623 : 2015-07-16 11:18:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 11:19:02
+----------------------------
+ select uid from dy_user
+TM : 0.030002117156982 : 2015-07-16 11:19:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 11:19:54
+----------------------------
+ select uid from dy_user
+TM : 0.029001951217651 : 2015-07-16 11:19:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029000997543335 : 2015-07-16 11:20:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001878738403 : 2015-07-16 11:21:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001878738403 : 2015-07-16 11:21:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.032001972198486 : 2015-07-16 11:23:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.032001972198486 : 2015-07-16 11:23:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 11:23:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 11:23:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 11:24:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 11:24:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 11:24:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001163482666 : 2015-07-16 11:24:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038001775741577 : 2015-07-16 11:25:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038001775741577 : 2015-07-16 11:25:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030000925064087 : 2015-07-16 11:45:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030000925064087 : 2015-07-16 11:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030000925064087 : 2015-07-16 11:45:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.030000925064087 : 2015-07-16 11:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.039001941680908 : 2015-07-16 11:45:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0.039001941680908 : 2015-07-16 11:45:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.039001941680908 : 2015-07-16 11:45:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.039001941680908 : 2015-07-16 11:45:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037001848220825 : 2015-07-16 11:46:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.037001848220825 : 2015-07-16 11:46:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037001848220825 : 2015-07-16 11:46:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.037001848220825 : 2015-07-16 11:46:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031002044677734 : 2015-07-16 11:46:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031002044677734 : 2015-07-16 11:46:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031002044677734 : 2015-07-16 11:46:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031002044677734 : 2015-07-16 11:46:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.030001878738403 : 2015-07-16 11:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+ select * from dy_user where uname = 'Avatarar'
+TM : 0.029001951217651 : 2015-07-16 11:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037001848220825 : 2015-07-16 11:48:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.037001848220825 : 2015-07-16 11:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 11:48:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 11:48:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 11:51:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 11:51:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 14:18:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 14:18:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 14:41:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 14:41:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02900218963623 : 2015-07-16 14:41:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0.02900218963623 : 2015-07-16 14:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031201124191284 : 2015-07-16 14:41:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031201124191284 : 2015-07-16 14:41:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 14:42:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 14:42:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 14:42:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031200170516968 : 2015-07-16 14:42:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 14:42:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 14:42:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 14:42:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.028002023696899 : 2015-07-16 14:42:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 14:44:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.037002086639404 : 2015-07-16 14:44:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 14:44:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.037002086639404 : 2015-07-16 14:44:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031002044677734 : 2015-07-16 14:45:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031002044677734 : 2015-07-16 14:45:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046799898147583 : 2015-07-16 14:45:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.046799898147583 : 2015-07-16 14:45:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046799898147583 : 2015-07-16 14:45:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.046799898147583 : 2015-07-16 14:45:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200885772705 : 2015-07-16 14:45:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200885772705 : 2015-07-16 14:45:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200885772705 : 2015-07-16 14:45:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031200885772705 : 2015-07-16 14:45:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:45:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 14:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:45:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 14:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046800136566162 : 2015-07-16 14:46:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.046800136566162 : 2015-07-16 14:46:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046800136566162 : 2015-07-16 14:46:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.046800136566162 : 2015-07-16 14:46:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+DESC dy_user
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437029227.4908' WHERE uname = 'irones'
+TM : 0.038002014160156 : 2015-07-16 14:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:47:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 14:47:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.015599966049194 : 2015-07-16 14:47:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.015599966049194 : 2015-07-16 14:47:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437029248.4286' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 14:47:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437029290.8925' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 14:48:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+DESC dy_user
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437029369.4994' WHERE uname = 'irones'
+TM : 0.028002023696899 : 2015-07-16 14:49:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+DESC dy_user
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437029933.6348' WHERE uname = 'irones'
+TM : 0.037002086639404 : 2015-07-16 14:58:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.032001972198486 : 2015-07-16 15:12:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.032001972198486 : 2015-07-16 15:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001878738403 : 2015-07-16 15:13:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001878738403 : 2015-07-16 15:13:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 15:16:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 15:16:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437031065.1817' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 15:17:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 15:17:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 15:17:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 15:17:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.029001951217651 : 2015-07-16 15:17:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 15:17:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.029001951217651 : 2015-07-16 15:17:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 16:04:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 16:04:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029001951217651 : 2015-07-16 16:11:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.029001951217651 : 2015-07-16 16:11:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029000997543335 : 2015-07-16 16:42:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.029000997543335 : 2015-07-16 16:42:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.037002086639404 : 2015-07-16 17:11:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.037002086639404 : 2015-07-16 17:11:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:11:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 17:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:11:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 17:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:11:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.028002023696899 : 2015-07-16 17:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:11:57
+----------------------------
+DESC dy_user
+TM : 0.028002023696899 : 2015-07-16 17:11:58
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437037917.9606' WHERE uname = 'irones'
+TM : 0.028002023696899 : 2015-07-16 17:11:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:12:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 17:12:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:12:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.038002014160156 : 2015-07-16 17:12:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:13:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 17:13:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030000925064087 : 2015-07-16 17:14:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030000925064087 : 2015-07-16 17:14:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+DESC dy_user
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437038100.6841' WHERE uname = 'irones'
+TM : 0.029000997543335 : 2015-07-16 17:15:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+DESC dy_user
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437038755.7794' WHERE uname = 'irones'
+TM : 0.030001163482666 : 2015-07-16 17:25:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437038989.2153' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:29:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:33:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+DESC dy_user
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437039236.1008' WHERE uname = 'irones'
+TM : 0.038002014160156 : 2015-07-16 17:33:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02900218963623 : 2015-07-16 17:41:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0.02900218963623 : 2015-07-16 17:41:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:41:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:41:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:41:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 17:41:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031001806259155 : 2015-07-16 17:43:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031001806259155 : 2015-07-16 17:43:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046800851821899 : 2015-07-16 17:43:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.046800851821899 : 2015-07-16 17:43:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030002117156982 : 2015-07-16 17:43:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030002117156982 : 2015-07-16 17:43:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:43:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+DESC dy_user
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437039805.3636' WHERE uname = 'irones'
+TM : 0.031200170516968 : 2015-07-16 17:43:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031002044677734 : 2015-07-16 17:43:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031002044677734 : 2015-07-16 17:43:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046799898147583 : 2015-07-16 17:43:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0.046799898147583 : 2015-07-16 17:43:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:43:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001163482666 : 2015-07-16 17:43:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:44:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 17:44:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:44:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 17:44:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.046800851821899 : 2015-07-16 17:44:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0.046800851821899 : 2015-07-16 17:44:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:44:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:28
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:28
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437039868.0379' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:44:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.038002014160156 : 2015-07-16 17:44:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0.038002014160156 : 2015-07-16 17:44:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:44:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:44:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02800178527832 : 2015-07-16 17:45:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.02800178527832 : 2015-07-16 17:45:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02800178527832 : 2015-07-16 17:45:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.02800178527832 : 2015-07-16 17:45:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.015600204467773 : 2015-07-16 17:45:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.015600204467773 : 2015-07-16 17:45:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028002023696899 : 2015-07-16 17:45:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028002023696899 : 2015-07-16 17:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+DESC dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437039937.0701' WHERE uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:45:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02900218963623 : 2015-07-16 17:45:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.02900218963623 : 2015-07-16 17:45:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.02900218963623 : 2015-07-16 17:45:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.02900218963623 : 2015-07-16 17:45:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:45:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:45:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:45:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 17:45:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:45:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031200170516968 : 2015-07-16 17:45:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:45:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.030001163482666 : 2015-07-16 17:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.030001163482666 : 2015-07-16 17:45:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.030001163482666 : 2015-07-16 17:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:45:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:45:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.03200101852417 : 2015-07-16 17:46:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.03200101852417 : 2015-07-16 17:46:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.03200101852417 : 2015-07-16 17:46:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.03200101852417 : 2015-07-16 17:46:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:46:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031199932098389 : 2015-07-16 17:46:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031199932098389 : 2015-07-16 17:46:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031199932098389 : 2015-07-16 17:46:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:46:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.031200170516968 : 2015-07-16 17:46:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.031200170516968 : 2015-07-16 17:46:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.031200170516968 : 2015-07-16 17:46:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028001070022583 : 2015-07-16 17:47:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0.028001070022583 : 2015-07-16 17:47:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='rvfjbvj6il30zoiq' and table_type='base table'
+                
+TM : 0.028001070022583 : 2015-07-16 17:47:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.028001070022583 : 2015-07-16 17:47:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-16 17:48:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-16 17:48:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-16 17:48:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-16 17:48:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010008811950684 : 2015-07-16 17:48:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010008811950684 : 2015-07-16 17:48:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010008811950684 : 2015-07-16 17:48:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010008811950684 : 2015-07-16 17:48:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-16 17:48:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-16 17:48:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 17:48:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 17:48:16
+----------------------------

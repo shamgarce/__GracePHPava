@@ -7,7 +7,9 @@ class Rbac{
     public $userdeny    = false;
 
     public function run($rules = '') {
-        $rules = $rules['rules']['access']['rules'];
+        //$rules = $rules['rules']['access']['rules'];
+
+D($rules);
 
 
         $this->deny();
@@ -24,7 +26,6 @@ class Rbac{
 
     public function deny()
     {
-
 //        errormsg("Access deny");
 //        D(C());
 ////        error404();

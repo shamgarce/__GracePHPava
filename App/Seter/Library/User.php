@@ -1,39 +1,39 @@
 <?php
-/**
-//$this->S->user()->login();
-//$this->S->user()->logout();
-//$this->S->user()->regsign();
-//$this->S->user()->islogin();
-//$this->S->user->login('irones','irones');
-//echo $this->user->isguest();
-//print_r($this->S->jsonarr);
- */
+
 namespace Seter\Library;
 //用户模型
 /*
  * 暂时的功能局限到获取自己的信息
  * //========================================
-    ->regsign("username",$usinfo)   //注册新用户
-    ->ver("user","password")        //验证用户是否正确
-    ->delete("username")            //删除用户
-    ->changepwassword("username","newpassword") //更改密码
-    ->editinfo($res) //更改密码
-    ->logout()    登出
-    ->info()      获取用户信息
-    ->groupinfo()
-    ->isguest()
-    ->isadmin()
-    ->viewtable()
+ * ->maplist [uid->uname] [uname->uid]
+ * -> singup($res)          //注册
+ * -> singin($res)          //登陆
+ * -> singout()         //登出
+ * -> getuserinfo($uname)   //获取用户信息
+ * -> deleteuser($uname)    //获取用户信息
+ * -> edituser($uname,$res)
+ * -> isadmin($uid)
+ * -> islogin();            //用户是否已经登陆
+ * -> viewtable()           //查看表
+
+
+     * =================================================
+     * 所有操作 ->已经完成的
+     * ->signin()->json();      //带状态操作
+     * ->signout();
+     * ->islogin();
+     * ->isadmin();
+     * ->isguest();
+     * ->getuserinfo();
+     *
+     *
  * */
+
 class User
 {
-
-//    public $loginurl    = '/u/home.login';
-//    public $logout      = '/u/home.loginout';
-//    public $logingo     = '/u/home.index';
     /*
      * =============================================================
-     *     //针对当前用户
+     * 表信息设置
      * =============================================================
      * */
     public $tablename = '';
@@ -53,139 +53,123 @@ class User
     public $filedregtime = '';//'logtime';
 
     //* =============================================================
-    //this for person
-//    public $identity = array();
-    public $isguest = true;
-    public $isadmin = false;
+    public $map = [];
+    public $info = [];
+
 
     public $row = [];
-
     public $jsonarr = [];
+    public $json = [];
 
-//
-//
-//    public function test()
-//    {
-//        //echo $this->fileduname;
-//    }
-
-    public function UserDefaultField()
-    {
-        return [
-            'tablename' => 'dy_user',
-            'uid' => 'uid',
-            'fileduname' => 'uname',
-            'filedtname' => 'tname',
-            'filedpwd' => 'pwd',
-            'filedauthkey' => 'authkey',            //组织不同系统用户
-            'filedgroupid' => 'groupid',
-            'filedenable' => 'enable',
-            'filedaccessToken' => 'accessToken',    //授权
-            'filedloginip' => 'logip',
-            'filedlogintm' => 'logtime',
-            'filedregtime' => 'regtime',
-        ];
-    }
 
     public function __construct()
     {
+        \St::Getcodelist($this->DefaultCoderes());            //1 把code列表传入进去
+
         $this->S = \Seter\Seter::getInstance();
         $userfield = C('User')['UserField']?:[];
         $field = array_merge($this->UserDefaultField(), $userfield);
-        foreach ($field as $key => $value) {
-            $this->$key = $value;
-        }
-        $this->isguest = $this->isguest();          //是否访客【未登录】
-        $this->islogin = $this->islogin();          //是否登陆
-        $this->isadmin = $this->isadmin();          //是否管理员
-        $this->myinfo = $this->myinfo();            //我的信息
+        foreach ($field as $key => $value) {    $this->$key = $value;   }
+        $this->map['idtouname'] = $this->mapidtouname();
+        $this->map['unametoid'] = array_flip($this->map['idtouname']);
+
+//        $this->isguest = $this->isguest();          //是否访客【未登录】
+//        $this->islogin = $this->islogin();          //是否登陆
+//        $this->isadmin = $this->isadmin();          //是否管理员
+//        $this->myinfo = $this->myinfo();            //我的信息
     }
 
-
-    public function regsign($regsign = array())
+   /**
+     * @return array
+     * 操作结果状态
+     * ->signin()
+     */
+    public function DefaultCoderes()
     {
-
+        return [
+            '0'     => 'ini',
+            '200'   => '操作成功',
+            '-200' => '用户名密码不能为空',
+            '-201' => '密码错误',
+            '-202' => '无效用户',
+            '-203' => '用户不存在',
+        ];
     }
 
 
 
     //登陆
-    public function login($uname,$pwd)
+    public function signin($uname,$pwd)
     {
+
         $tablename = $this->tablename;
-        if($this->Isnotempty($uname) && $this->Isnotempty($pwd)){
-           // D($row);
-            $this->checkname($uname);
-            $row = $this->row;
-            if(empty($row)){
-                $this->jsonarr = array(
-                    'code'=>-200,
-                    'msg'=>'户名不存在',
-                );
-                return false;
-            }else{
-                if($row[$this->filedpwd] == $this->passwordhash($pwd)){
-                    //禁用的用户
-                    if($row[$this->filedenable]!=1){
-                        $this->jsonarr = array(
-                            'code'=>-200,
-                            'msg'=>'无效用户',
-                        );
-                        return false;
-                    }
-                    //更改登陆信息
-                    $ar = array(
-                        $this->filedlogintm  =>  \GetIP(),
-                        $this->filedregtime  =>  \T(),
-                    );
-                    //更改数据库激励
-                    $this->S->table->$tablename->where($this->fileduname." = '{$uname}'")->update($ar);
-                    //日志记录
 
-                    //dolog
-                    //算法验证保证COOKIE安全
-                    //$filedauthkey  $filedgroupid
-                    // 604800 = 7*24*60*60
-                    //路径 //可以通用
-                    $tm = time();
-                    $signature = $this->signnature($row[$this->fileduname].$row[$this->filedtname].$row[$this->filedauthkey].$row[$this->filedgroupid].$tm);;
-                    setCookie('vuser_uname',$row[$this->fileduname],$tm+604800,'/');
-                    setCookie('vuser_tname',$row[$this->filedtname],$tm+604800,'/');
-                    setCookie('vuser_authkey',$row[$this->filedauthkey],$tm+604800,'/');
-                    setCookie('vuser_groupid',$row[$this->filedgroupid],$tm+604800,'/');
-                    setCookie('vuser_tm',$tm,$tm+604800,'/');                     //记录时间
-                    setCookie('vuser_signature',$signature,$tm+604800,'/');      //签名算法
-                    return true;
-                }else{
-                    $this->jsonarr = array(
-                        'code'=>-200,
-                        'msg'=>'密码错',
-                    );
-                    return false;
-                }
+        //用户名密码不能为空
+        if($this->Isempty($uname) || $this->Isempty($pwd)) {
+            \St::jsoncode(-200);  //用户名密码不能为空
+            return $this;
+        }
 
+        if(!$this->checkname($uname)){
+            \St::jsoncode(-203);      //用户不存在
+            return $this;
+        }
 
-            }
+        $row = $this->getuserinfo($uname);
+        if($row[$this->filedpwd] != $this->passwordhash($pwd)){
+            \St::jsoncode(-201);      //密码错误
+            return $this;
         }else{
-            $this->jsonarr = array(
-                'code'=>-200,
-                'msg'=>'用户名密码不能为空',
+            //禁用的用户
+            if($row[$this->filedenable]!=1){
+                \St::jsoncode(-202);      //无效用户
+                return $this;
+            }
+            //更改登陆信息
+            $ar = array(
+                $this->filedlogintm  =>  \GetIP(),
+                $this->filedregtime  =>  \T(),
             );
-            return false;
+            //更改数据库激励
+            $this->S->table->$tablename->where($this->fileduname." = '{$uname}'")->update($ar);
+            //日志记录
+
+            //dolog
+            //算法验证保证COOKIE安全
+            //$filedauthkey  $filedgroupid
+            // 604800 = 7*24*60*60
+            //路径 //可以通用
+            $tm = time();
+            $signature = $this->signnature($row[$this->fileduname].$row[$this->filedtname].$row[$this->filedauthkey].$row[$this->filedgroupid].$tm);;
+            setCookie('vuser_uname',$row[$this->fileduname],$tm+604800,'/');
+            setCookie('vuser_tname',$row[$this->filedtname],$tm+604800,'/');
+            setCookie('vuser_authkey',$row[$this->filedauthkey],$tm+604800,'/');
+            setCookie('vuser_groupid',$row[$this->filedgroupid],$tm+604800,'/');
+            setCookie('vuser_tm',$tm,$tm+604800,'/');                     //记录时间
+            setCookie('vuser_signature',$signature,$tm+604800,'/');      //签名算法
+            \St::jsoncode(200);      //操作成功
+            return $this;
         }
     }
 
 
+
+
+
+
+
+
+
     //登出
-    public function logout()
+    public function signout()
     {
         $tm = time();
         setCookie('vuser_uname',$this->fileduname,$tm-1,'/');
         setCookie('vuser_tname',$this->filedtname,$tm-1,'/');
         setCookie('vuser_authkey',$this->filedauthkey,$tm-1,'/');
         setCookie('vuser_groupid',$this->filedgroupid,$tm-1,'/');
-        setCookie('vuser_tm',$tm,$tm-1,'/');                     //记录时间
-        setCookie('vuser_signature','1234',$tm-1,'/');      //签名算法
+        setCookie('vuser_tm',$tm,$tm-1,'/');                        //记录时间
+        setCookie('vuser_signature','1234',$tm-1,'/');              //签名算法
         return true;
     }
 
@@ -201,29 +185,23 @@ class User
      * @return mixed
      * 获取我的用户信息
      */
-    public function myinfo()
+    public function getuserinfo($uname = '')
     {
-        $uname = \Sham::saddslashes($this->S->request->cookie['vuser_uname']);
-        $this->checkname($uname);
-        $row = $this->row;
-        unset($row[$this->filedpwd]);
+        $tablename = $this->tablename;
+        $uname = $uname?:$this->S->request->cookie['vuser_uname']?:'';
+
+        if($this->checkname($uname)){
+            //用户名监测通过
+            $uname = \Sham::saddslashes($uname);
+            $row = $this->S->table->$tablename->where("{$this->fileduname} = '$uname'")->getrow();
+            //unset($row[$this->filedpwd]);
+        }else{
+            //没通过
+            $row = [];
+        };
         return $row;
     }
 
-    public function islogin()
-    {
-        $uname      = $this->S->request->cookie['vuser_uname'];
-        $tname      = $this->S->request->cookie['vuser_tname'];
-        $authkey    = $this->S->request->cookie['vuser_authkey'];
-        $groupid    = $this->S->request->cookie['vuser_groupid'];
-        $tm         = $this->S->request->cookie['vuser_tm'];             //记录时间
-        $signature  = $this->S->request->cookie['vuser_signature'];      //签名算法
-        if($signature == $this->signnature($uname.$tname.$authkey.$groupid.$tm)){
-            return true;
-        }else{
-            return false;
-        }
-    }
 
     /**
      * @return bool
@@ -254,19 +232,26 @@ class User
     }
 
 
-    //是否空 存在返回true
-    public function Isnotempty($str)
+
+    public function islogin()
     {
-        if(empty($str)){
-            return false;
-        }else{
+        $uname      = $this->S->request->cookie['vuser_uname'];
+        $tname      = $this->S->request->cookie['vuser_tname'];
+        $authkey    = $this->S->request->cookie['vuser_authkey'];
+        $groupid    = $this->S->request->cookie['vuser_groupid'];
+        $tm         = $this->S->request->cookie['vuser_tm'];             //记录时间
+        $signature  = $this->S->request->cookie['vuser_signature'];      //签名算法
+        if($signature == $this->signnature($uname.$tname.$authkey.$groupid.$tm)){
             return true;
+        }else{
+            return false;
         }
     }
 
-    public function passwordhash($password = '')
+    //是否空 存在返回true
+    public function Isempty($str)
     {
-        return $password;
+        return empty($str)?true:false;
     }
 
     /**
@@ -275,19 +260,62 @@ class User
      */
     public function checkname($uname = '')
     {
-        $uname = \Sham::saddslashes($uname);
-        $tablename = $this->tablename;
-        $row = $this->S->table->$tablename->where($this->fileduname." = '{$uname}'")->getrow();
-        $this->row = $row;
+        return $this->map['unametoid'][$uname]?true:false;
     }
 
-    //签名验证
-    public function signnature($tr = '')
+    //签名验证hash
+    public function signnature($tring = '')
     {
-        return md5(md5(md5(md5($tr))));
+        return md5(md5(md5(md5($tring))));
     }
 
+    //密码验证hash
+    public function passwordhash($password = '')
+    {
+        return $password;
+    }
 
+    public function mapidtouname()
+    {
+        $tablename = $this->tablename;
+        return $this->S->table->$tablename->colm("{$this->uid},{$this->fileduname}")->getmap();
+    }
+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+
+
+
+
+
+
+    public function UserDefaultField()
+    {
+        return [
+            'tablename' => 'dy_user',
+
+            'uid' => 'uid',
+            'fileduname' => 'uname',
+            'filedtname' => 'tname',
+            'filedpwd' => 'pwd',
+            'filedauthkey' => 'authkey',            //组织不同系统用户
+
+            'filedgroupid' => 'groupid',
+            'filedenable' => 'enable',
+            'filedaccessToken' => 'accessToken',    //授权
+            'filedloginip' => 'logip',
+            'filedlogintm' => 'logtime',
+
+            'filedregtime' => 'regtime',
+        ];
+    }
 
     //用户表标准格式
     public function columns()
@@ -330,7 +358,6 @@ CREATE TABLE IF NOT EXISTS `dy_user` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0;
         */
     }
-
 
 }
 

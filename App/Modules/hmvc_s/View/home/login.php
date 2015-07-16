@@ -68,12 +68,11 @@
                 alert(res.msg);
                 return false;
             }else{
-                window.location.href="<?=$get['r']?>";
-                return true;
+               window.location.href="<?=$GET['r']?:C('usermain');?>";
+               return true;
             }
         });
     })
 </script>
-<?=$get['r']?>
 </body>
 </html>

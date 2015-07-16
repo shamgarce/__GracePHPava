@@ -38,6 +38,7 @@ class GracePHP {
      * @param array $conf
      */
     private function __construct($conf){
+        St::__ini();
         C($conf);
         $conf['CONF_FILE'] = isset($conf['CONF_FILE'])?$conf['CONF_FILE']:'Conf.php';
         $conf = G($conf['APP_PATH'].$conf['CONF_FILE']);
@@ -220,6 +221,7 @@ class Controller {
     public $env;
     public $data = [];
     public $accessRules = [];
+    public $ispost = false;         //是否post提交
 
     /**
      * 构造函数，初始化视图实例，调用hook
@@ -256,13 +258,13 @@ class Controller {
         $this->singleton('request', function ($c) {
             return $this->S->request;
         });
+        $this->singleton('user', function ($c) {
+            return $this->S->user;
+        });
+        $this->singleton('rbac', function ($c) {
+            return $this->S->rbac;
+        });
 
-//        $this->singleton('user', function ($c) {
-//            return $this->S->user;
-//        });
-//        $this->singleton('rbac', function ($c) {
-//            return $this->S->rbac;
-//        });
 //
 //
 ////        $this->singleton('error', function ($c) {
@@ -356,7 +358,14 @@ class Controller {
      */
     protected function _init(){
         header("Content-Type:text/html; charset=utf-8");
-        //$this->rbac->run($this->getaccessRules());          //角色行为控制
+        //access rules
+        //+--------------------------------------------------
+        $this->rbac->run($this->getaccessRules());
+        //+--------------------------------------------------
+        if($this->request->post) $this->ispost = true;
+
+
+
     }
 
     /**
@@ -470,9 +479,9 @@ class View {
         }else{
             $this->_tplDir = $tplDir;
         }
-        $this->assign('get',\Seter\Seter::getInstance()->request->get);
-        $this->assign('post',\Seter\Seter::getInstance()->request->post);
-        $this->assign('cookie',\Seter\Seter::getInstance()->request->cookie);
+        $this->assign('GET',\Seter\Seter::getInstance()->request->get);
+        $this->assign('POST',\Seter\Seter::getInstance()->request->post);
+        $this->assign('COOKIE',\Seter\Seter::getInstance()->request->cookie);
     }
     /**
      * 为视图引擎设置一个模板变量
@@ -701,18 +710,77 @@ class Model
     public $get     = array();
     public $post    = array();
     public $cookie  = array();
+
     public $res     = array();
 
+    public $S     = null;
+
+    //codelist
+    public $coderes  = array();
+
+    //用于jsonout
+    public $json     = array();
+
     public function __construct(){
+        $this->S = \Seter\Seter::getInstance();
+        $this->coderes = $this->DefaultCoderes();
+        $this->jsoncode(0);          //初始状态
         $this->_init();
     }
 
 //    //hook
     public function _init()
     {
-        $this->get = \Seter\Seter::getInstance()->request->get;
-        $this->post = \Seter\Seter::getInstance()->request->post;
-        $this->cookie = \Seter\Seter::getInstance()->request->cookie;
+        $this->get      = $this->S->request->get;
+        $this->post     = $this->S->request->post;
+        $this->cookie   = $this->S->request->cookie;
+    }
+
+
+    //待重写
+    public function DefaultCoderes()
+    {
+        return [
+            '0'=>'ini'
+        ];
+    }
+
+    public function jsoncode($code = 0)
+    {
+        $this->json = [
+            'code'  => $code,
+            'msg'   => $this->coderes[$code]
+        ];
+        return true;
+    }
+
+    //结果输出修饰
+    //返回操作结果    或者      给结果赋值
+    public function res($data = '')
+    {
+        if(!empty($data))  $this->json['data'] = $data;
+        return $this->json['data'];
+    }
+
+    //返回操作结果的json数据 包含 code msg data
+    //msg = $codelib[code]
+    public function AjaxReturn()
+    {
+        echo json_encode($this->json);
+        exit;
+    }
+
+    //返回json数组
+    public function json()
+    {
+        return $this->json;
+    }
+
+    //返回操作bool
+    public function bool()
+    {
+        return intval($this->json['code']>0)?true:false;
+        exit;
     }
 
 }
@@ -889,5 +957,103 @@ class Router
         return $pathinfo_query;
     }
 
+
+}
+
+
+
+
+
+
+
+
+/**
+ * Class St
+ * @package Seter\Library
+ * 把所有的操作归纳到 对状态操作中来
+ *
+    //$ar = [
+    //'200'=>'ok',
+    //'91'=>'ok',
+    //];
+    //St::Getcodelist($ar);            //1 把code列表传入进去
+    //St::jsoncode(-200);              //输入状态
+    //St::jsonres("asdfasd");          //设置内容
+    //D(St::json());                   //输出json数据
+    //D(St::jsonres());                //输出内容数据
+    //D(St::AjaxReturn());             //输出json语句      //会中止
+    //D(St::bool());                   //输出布尔值
+    //echo '<hr>';
+    //D(St::$codelist);                 //显示列表
+    //exit;
+ *
+ */
+class St{
+
+    public static $json = [1];
+    public static $codelist = [];
+
+
+    public static function __ini()
+    {
+        self::$codelist = self::DefaultCoderes();
+    }
+
+    public static function DefaultCoderes()
+    {
+        return [
+            '0'     => 'ini',
+            '200'   => '操作成功',
+        ];
+    }
+
+    public static function Getcodelist($list = [])
+    {
+        foreach($list as $key=>$value){
+            self::$codelist[$key] = $value;
+        }
+    }
+//    +-----------------------------------------------------------+
+//    +-----------------------------------------------------------+
+
+    //状态操作
+    public static function jsoncode($code = 0)
+    {
+        self::$json = [
+            'code'  => $code,
+            'msg'   => self::$codelist[$code]
+        ];
+        return true;
+    }
+
+
+    //结果输出修饰
+    //返回操作结果    或者      给结果赋值
+    public static function jsonres($data = '')
+    {
+        if(!empty($data))  self::$json['data'] = $data;
+        return self::$json['data'];
+    }
+
+    //返回json数组
+    public static function json()
+    {
+        return self::$json;
+    }
+
+    //返回json串
+    public static function AjaxReturn()
+    {
+        echo json_encode(self::$json);
+        exit;
+    }
+
+    //返回操作bool
+    public static function bool()
+    {
+//        return self::$json['code'];
+        return intval(self::$json['code']>0)?true:false;
+        exit;
+    }
 
 }

@@ -2,7 +2,6 @@
 /*
  * 调用
  * include('Seter/I.php');			//入口代码
- * include('Seter/Seter.php');
  * $this->Seter = new \Seter\Seter();
  * \Seter\Seter::getInstance()
  * */

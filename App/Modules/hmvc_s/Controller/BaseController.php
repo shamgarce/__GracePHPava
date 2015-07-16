@@ -31,11 +31,12 @@ class BaseController extends Controller{
         ];
     }
 
-//    //action before
-    protected function _init(){
-        header("Content-Type:text/html; charset=utf-8");
-        //$this->rbac->run($this->getaccessRules());          //角色行为控制
-    }
+//    protected function _init(){
+//        header("Content-Type:text/html; charset=utf-8");
+//        if($this->request->post) $this->ispost = true;
+//    }
+
+
 //
 //    /**
 //     * 基于用户角色的权限控制

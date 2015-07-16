@@ -4,9 +4,6 @@
  */
 
 $config = [
-    'userlogin' => '/super/login',
-
-
     'error_manage' => '',
     'usertablename' => 'dy_user',
     'Cacheroot' => C('APP_PATH').'cache/',
@@ -15,21 +12,21 @@ $config = [
 
     //入口系统模块 - hmvc必须
     'modules' => [
-        's' => 'hmvc_super',
+        's' => 'hmvc_s',
     ],
 
 
     'mysql'=>[
+//        'default'=>[
+//            "hostname"  =>  'rdsoyq134we31od4l8uwi.mysql.rds.aliyuncs.com',
+//            "username"  =>  'nsv1',
+//            "password"  =>  'nsv1nsv1',
+//            "database"  =>  'rvfjbvj6il30zoiq',
+//            "charset"   =>  'utf8',
+//            "pconnect"  =>  0,
+//            "quiet"     =>  0
+//        ],
         'default'=>[
-            "hostname"  =>  'rdsoyq134we31od4l8uwi.mysql.rds.aliyuncs.com',
-            "username"  =>  'nsv1',
-            "password"  =>  'nsv1nsv1',
-            "database"  =>  'rvfjbvj6il30zoiq',
-            "charset"   =>  'utf8',
-            "pconnect"  =>  0,
-            "quiet"     =>  0
-        ],
-        'default2'=>[
             "hostname"  =>  '127.0.0.1',
             "username"  =>  'root',
             "password"  =>  'root3306',
