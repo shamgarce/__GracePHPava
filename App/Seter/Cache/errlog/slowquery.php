@@ -11879,3 +11879,72 @@ TM : 0 : 2015-07-16 17:48:16
  select * from dy_user where uname = 'irones'
 TM : 0 : 2015-07-16 17:48:16
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 18:04:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437041053.7723' WHERE uname = 'irones'
+TM : 0 : 2015-07-16 18:04:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437041058.7487' WHERE uname = 'irones'
+TM : 0 : 2015-07-16 18:04:18
+----------------------------
