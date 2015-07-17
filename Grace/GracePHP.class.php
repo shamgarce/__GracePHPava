@@ -98,13 +98,17 @@ class GracePHP {
         }
         spl_autoload_register(array('GracePHP', 'autoload'));              //psr-0
         $router['params'] = isset($router['params'])?$router['params']:[];
-        $params = $router['params'];
-        if(count($router['params']) ==1 ){
-            $nr = current(array_values($router['params']));
-            if(empty($nr)){
-                $params = current(array_keys($router['params']));
-            }
-        }
+
+        $params = $router['params_'];
+
+//        $params = $router['params'];
+//        if(count($router['params']) ==1 ){
+//            $nr = current(array_values($router['params']));
+//            if(empty($nr)){
+//                $params = current(array_keys($router['params']));
+//            }
+//        }
+
         call_user_func(array($controller,$method),$params);
     }
 
@@ -363,9 +367,6 @@ class Controller {
         $this->rbac->run($this->getaccessRules());
         //+--------------------------------------------------
         if($this->request->post) $this->ispost = true;
-
-
-
     }
 
     /**
@@ -385,7 +386,28 @@ class Controller {
 
     protected function behaviors()
     {
-        return [];
+//  '*'     //所有
+//  '@'     //登陆用户
+//  'A'     //管理员
+//  'G'     //游客
+//  '?'     //查询数据库
+        return [
+            'access' => [
+                'only' => ['login_test', 'logout_test', 'signup_test'],
+                'rules' => [
+                    [
+                        'actions' => ['login_test'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'actions' => ['login_test'],
+                        'deny' => true,
+                        'roles' => ['A'],
+                    ],
+                ],
+            ],
+        ];
     }
 
         /**
@@ -835,6 +857,17 @@ class Router
         foreach($this->router['_params'] as $key=>$value){
             $this->router['params'][$key] = $value;
         }
+
+
+        $params_ = '';
+            if (count($this->router['_paramspath']) == 1) {
+                $nr = current(array_values($this->router['_paramspath']));
+                if (empty($nr)) {
+                    $params_ = current(array_keys($this->router['_paramspath']));
+                }
+            }
+        $this->router['params_'] = $params_;
+
         foreach($this->router['_paramspath'] as $key=>$value){
             $this->router['params'][$key] = $value;
         }

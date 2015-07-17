@@ -9,22 +9,29 @@ class BaseController extends Controller{
         parent::__construct();
     }
 
+
+//  '*'     //所有
+//  '@'     //登陆用户
+//  'A'     //管理员
+//  'G'     //游客
+//  '?'     //查询数据库
+
     public function behaviors()
     {
 
         return [
             'access' => [
-                'only' => ['login', 'logout', 'signup'],
+                'only' => [ 'login','logout', 'signup','main'],
                 'rules' => [
                     [
-                        'actions' => ['login', 'signup'],
+                        'actions' => ['signout'],
                         'allow' => true,
-                        'roles' => ['?'],
+                        'roles' => ['G'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['main'],
                         'allow' => true,
-                        'roles' => ['@'],
+                        'roles' => ['?'],
                     ],
                 ],
             ],

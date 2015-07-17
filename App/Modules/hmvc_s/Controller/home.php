@@ -23,7 +23,7 @@ class home extends BaseController {
 
 
 
-
+        D(\Seter\Seter::getInstance()->request->cookie['vuser_uname']);
         $this->display('',[
             'title'=>'主界面'
 

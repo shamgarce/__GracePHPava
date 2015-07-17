@@ -38,6 +38,10 @@ $config = [
         ],
 
     ],
+    'Rbacdb'=>[
+        'accessrules'   =>'g_accessrules',
+        'accessrules_lib'=>'g_rulelib',
+    ],
     'User'=> [
         'AdminGroupid'=>[9,0],
         'UserField'=> [

@@ -11948,3 +11948,2397 @@ TM : 0 : 2015-07-16 18:04:18
 UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437041058.7487' WHERE uname = 'irones'
 TM : 0 : 2015-07-16 18:04:18
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+DESC dy_user
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437114224.5634' WHERE uname = 'irones'
+TM : 0.021001100540161 : 2015-07-17 14:23:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0090000629425049 : 2015-07-17 16:55:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0090000629425049 : 2015-07-17 16:55:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 16:55:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 16:55:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 16:55:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 16:55:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 16:55:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:01:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:01:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:01:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:01:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:02:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:02:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:02:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:02:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:03:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:03:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:03:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:03:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:06:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:07:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:07:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:07:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:07:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:07:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:07:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:08:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:08:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:09:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:09:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:09:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:09:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:09:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:09:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:09:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:09:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:09:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:10:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:10:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:10:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:10:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:10:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:10:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:10:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:10:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:11:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:11:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:11:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:11:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:12:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:12:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:12:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:12:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:12:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:12:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:13:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:13:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:13:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:13:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:13:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:13:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:13:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:13:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:13:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:13:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:14:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:14:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:14:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:14:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:14:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:14:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:14:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:14:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:49:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:49:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:49:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:49:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437126549.0877' WHERE uname = 'irones'
+TM : 0 : 2015-07-17 17:49:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:26
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:27
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:28
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 17:57:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 17:57:28
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0.00099992752075195 : 2015-07-17 17:57:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:40
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:57:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:42
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:58:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:58:49
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = ''
+                                and rule_controller = ''
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:53
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 17:59:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 17:59:56
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.0010001659393311 : 2015-07-17 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 17:59:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 17:59:57
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 18:00:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 18:00:05
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.00099992752075195 : 2015-07-17 18:00:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:00:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:00:15
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:00:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:00:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:00:39
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:00:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:14
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 18:01:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 18:01:15
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.00099992752075195 : 2015-07-17 18:01:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 18:01:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 18:01:18
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.0010001659393311 : 2015-07-17 18:01:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:01:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:01:30
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:01:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:03:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:03:21
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:03:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:23
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-17 18:04:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-17 18:04:25
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.0010001659393311 : 2015-07-17 18:04:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-17 18:04:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-17 18:04:25
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.00099992752075195 : 2015-07-17 18:04:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:26
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:33
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:04:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:04:37
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:04:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-17 18:05:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-17 18:05:04
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0 : 2015-07-17 18:05:04
+----------------------------

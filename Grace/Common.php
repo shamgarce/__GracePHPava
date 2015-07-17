@@ -25,7 +25,7 @@ define('DOMAIN', (strtolower(getenv('HTTPS')) == 'on' ? 'https' : 'http') . '://
 define('PATH', parse_url(getenv('REQUEST_URI'), PHP_URL_PATH));
 
 //// Default timezone of server
-//date_default_timezone_set('UTC');
+date_default_timezone_set('PRC');
 
 //// iconv encoding
 //iconv_set_encoding("internal_encoding", "UTF-8");
