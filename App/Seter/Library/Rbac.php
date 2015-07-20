@@ -81,6 +81,7 @@ class Rbac{
                     ];
                     return true;
                 }
+
                 //管理员
                 if(in_array('?',$ck)){      //查询数据库解决
 //                    $tablename = "g_accessrules";

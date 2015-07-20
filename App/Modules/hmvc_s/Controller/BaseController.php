@@ -31,7 +31,7 @@ class BaseController extends Controller{
                     [
                         'actions' => ['main'],
                         'allow' => true,
-                        'roles' => ['?'],
+                        'roles' => ['*'],
                     ],
                 ],
             ],

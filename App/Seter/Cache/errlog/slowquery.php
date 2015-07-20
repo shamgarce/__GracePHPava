@@ -14342,3 +14342,88 @@ select * from g_accessrules where uname = 'irones' and rid in(
                     )
 TM : 0 : 2015-07-17 18:05:04
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+DESC dy_user
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437354531.6442' WHERE uname = 'irones'
+TM : 0.063003778457642 : 2015-07-20 09:08:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-20 09:08:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-20 09:08:52
+----------------------------
+select * from g_accessrules where uname = 'irones' and rid in(
+                        select rule_id from g_rulelib where rule_module = 's'and rule_action = 'main'
+                                and rule_controller = 'home'
+                                and enable = 1
+                    )
+TM : 0.00099992752075195 : 2015-07-20 09:08:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+DESC dy_user
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1437363521.7533' WHERE uname = 'irones'
+TM : 0.015599966049194 : 2015-07-20 11:38:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracephp' and table_type='base table'
+                
+TM : 0 : 2015-07-20 14:16:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-20 14:16:46
+----------------------------
